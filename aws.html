@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AWS Navbar</title>
+	<link rel="stylesheet" href="aws-navbar.css">
+</head>
+<body>
+	<header class="aws-header">
+		<nav class="aws-navbar" aria-label="AWS primary navigation">
+			<a class="aws-brand" href="#" aria-label="AWS home">
+				<span class="aws-mark" aria-hidden="true">aws</span>
+				<span class="aws-smile" aria-hidden="true"></span>
+			</a>
+
+			<div class="aws-menu">
+				<a href="#">Products <span class="chevron" aria-hidden="true"></span></a>
+				<a href="#">Solutions <span class="chevron" aria-hidden="true"></span></a>
+				<a href="#">Pricing</a>
+				<a href="#">Documentation</a>
+			</div>
+
+			<form class="aws-search" role="search">
+				<label class="sr-only" for="aws-search-input">Search AWS</label>
+				<input id="aws-search-input" type="search" placeholder="Search AWS">
+				<button type="submit" aria-label="Submit search">
+					<span class="search-icon" aria-hidden="true"></span>
+				</button>
+			</form>
+
+			<div class="aws-actions">
+				<a class="action-link" href="#">Contact us</a>
+				<a class="action-link" href="#">Sign in</a>
+				<a class="console-button" href="#">Create account</a>
+			</div>
+		</nav>
+
+		<div class="aws-subnav">
+			<a class="services-link" href="#">AWS Management Console</a>
+			<div class="subnav-actions">
+				<a href="#">Region: <strong>US East (N. Virginia)</strong> <span class="chevron" aria-hidden="true"></span></a>
+				<a href="#">Account <span class="chevron" aria-hidden="true"></span></a>
+			</div>
+		</div>
+	</header>
+</body>
+</html>
